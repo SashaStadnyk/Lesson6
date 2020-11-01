@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 700px;
+  height: 600px;
+  background: repeating-linear-gradient(
+    90deg,
+    white,
+    white 2%,
+    pink 2%,
+    pink 9%
+  );
+}
+.wrapper {
+  font-family: "Roboto Slab", serif;
+}
+h4 {
+  text-align: center;
+  padding-top: 70px;
+  font-family: "Barlow", sans-serif;
+}
+h1 {
+  text-align: center;
+  color: lightseagreen;
+  font-family: "Roboto Slab", serif;
+}
+h3 {
+  font-family: "Barlow", sans-serif;
+  margin: 0 150px;
+  text-align: center;
+  font-size: medium;
+}

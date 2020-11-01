@@ -1,0 +1,13 @@
+.preview {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  display: none;
+}
+a:hover + .preview {
+  display: block;
+}
+a {
+  display: block;
+}
