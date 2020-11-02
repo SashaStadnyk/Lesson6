@@ -4,7 +4,7 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  width: 700px;
+  width: 800px;
   height: 600px;
   background: repeating-linear-gradient(
     90deg,
@@ -13,9 +13,10 @@ body {
     pink 2%,
     pink 9%
   );
-}
-.wrapper {
   font-family: "Roboto Slab", serif;
+}
+.content {
+  display: flex;
 }
 h4 {
   text-align: center;
@@ -32,4 +33,31 @@ h3 {
   margin: 0 150px;
   text-align: center;
   font-size: medium;
+}
+
+h5 {
+  font-family: "Barlow", sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+.symbol {
+  width: 170px;
+  margin-left: 25px;
+  margin-top: 100px;
+}
+svg {
+  margin-left: 50px;
+}
+
+.symbol:hover {
+  background-color: rgba(32, 178, 170, 0.8);
+  color: white;
+}
+path:hover {
+  fill: white;
 }
